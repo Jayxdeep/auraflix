@@ -1,5 +1,6 @@
-import { Clerk } from "@clerk/clerk-sdk-node";
+import { ClerkExpressRequireAuth } from "@clerk/clerk-sdk-node";
+import dotenv from "dotenv";
 
-const clerk = new Clerk({ secretKey: process.env.CLERK_SECRET });
+dotenv.config();
 
-export default clerk;
+export const requireAuth = ClerkExpressRequireAuth(); 
