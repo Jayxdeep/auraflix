@@ -45,8 +45,8 @@ Ensure you have the following installed:
 ### **Installation**
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/your-username/InfluenceIQ.git
-   cd InfluenceIQ
+   git clone (https://github.com/Jayxdeep/auraflix.git)
+   cd auraflix
    ```
 
 2. **Backend Setup**
